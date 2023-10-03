@@ -5,6 +5,7 @@
 }
 
 .padre {
+    display: flex;
 
 }
     .header {
@@ -41,6 +42,15 @@
             .navegacion {
                 background: #70a3c4;
             }
+        .aside {
+            background: #f73f52 ;
+        }
+            .publi {
+                background: #ffea85;
+            }
     .footer {
         background: #000;
     }
+        .pie {
+            background: #e6af2e;
+        }
