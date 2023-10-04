@@ -2,13 +2,12 @@
     margin: 10px; 
     padding: 10px;
     box-sizing: border-box;
-    overflow: hidden;
+
 }
 
 .padre {
     display: flex;
     flex-flow: column nowrap;
-
 }
     .header {
         background: #000;
@@ -70,9 +69,17 @@
         .pie {
             background: #e6af2e;
         }
-@media all and (max-width: 800px) {
+@media all and (max-width: 768px) {
     .section {
         flex-direction: column;
         background: yellow;
+    }
+}
+@media all and (max-width: 576px) {
+    .menu {
+        flex-direction: column;
+    }
+    .articulos {
+        flex-direction: column;
     }
 }
