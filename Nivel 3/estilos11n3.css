@@ -3,7 +3,7 @@
     padding: 10px;
     box-sizing: border-box;
     background: gray;
-
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .padre {
@@ -24,6 +24,16 @@
                 background: #ea5455;
                 flex: 1 1 auto;
             }
+            .logo:hover {
+                animation-name: logo-marcado;
+                animation-duration: 1s;
+                          
+            }
+            @keyframes logo-marcado {
+                0% {background: #ea5455;}
+                100% {background: rgb(250, 66, 189); transform: scale(1.30)}   
+            } 
+
             .nav {
                 background: #ea5455;
                 flex: 5 1 auto;
